@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+.main-container{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 100vh;
+}
+.container1{
+  display: grid;
+  grid-template-columns: auto;
+  background-color: navajowhite;
+  
+  padding: 5rem;
+  font-family: 'Montserrat';
+}
+
+.container2{
+  background-color: black;
+  color: white;
+  
+}
+.container2 img{
+  width: 100%;
+  height : 100vh;
+}
+
+.newCon{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.name h1{
+  font-size: 5rem;
+}
